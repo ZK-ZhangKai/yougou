@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5526",
+    "navigationBarTitleText": "商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#b4b4b4",
+    "selectedColor": "#ff5526",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icons/shouye.png",
+        "selectedIconPath": "/icons/shouye-active.png"
+      },{
+        "pagePath": "pages/category/index",
+        "text": "菜单",
+        "iconPath": "/icons/caidan.png",
+        "selectedIconPath": "/icons/caidan-active.png"
+      },{
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "/icons/gouwuche.png",
+        "selectedIconPath": "/icons/gouwuche-active.png"
+      },{
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "/icons/wode.png",
+        "selectedIconPath": "/icons/wode-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
